@@ -1,0 +1,89 @@
+.title {
+    text-align: center;
+    font-size: 64px;
+    lor: #131313;
+
+}
+
+nav {
+    display: flex;
+    text-decoration: none;
+}
+
+.container {
+
+    background: rgba(255, 144, 14, 0.1);
+
+}
+
+.sub-title {
+    text-align: center;
+    font-size: 16px;
+    color: #727272;
+}
+
+.btn {
+    font-size: 20px;
+    color: #FFFFFF;
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+
+}
+
+.banner-container {
+    align-items: center;
+
+}
+
+.banner img {
+
+    background: url(group-three-modern-architects.jpg);
+    border-radius: 8px;
+    width: 400px;
+    height: 300px;
+
+
+}
+
+/* second row styles */
+
+.second-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.second-row-title {
+    color: #727272;
+}
+
+.grid-details {
+    text-align: right;
+}
+
+.third-grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    display: flex;
+
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.sponsors {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sponsor {
+    text-align: center;
+}
+
+.footer-section {
+    text-align: center;
+}
